@@ -2,12 +2,12 @@ name: IOS
 on: 
   push:
     paths:
-      - '*.pro'
+      - 'src/*.pro'
       - 'src/**'
       - '.github/workflows/ios.yml'
   pull_request:
     paths:
-      - '*.pro'
+      - 'src/*.pro'
       - 'src/**'
       - '.github/workflows/ios.yml' 
 jobs:

@@ -2,12 +2,12 @@ name: Android
 on: 
   push:
     paths:
-      - '*.pro'
+      - 'src/*.pro'
       - 'src/**'
       - '.github/workflows/android.yml'
   pull_request:
     paths:
-      - '*.pro'
+      - 'src/*.pro'
       - 'src/**'
       - '.github/workflows/android.yml'  
 jobs:
